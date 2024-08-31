@@ -1,0 +1,40 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-31 11:53:33.301715",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "pose",
+  "picture_attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "pose",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Pose",
+   "options": "Front\nSide\nBack",
+   "reqd": 1
+  },
+  {
+   "fieldname": "picture_attachment",
+   "fieldtype": "Attach Image",
+   "label": "Picture Attachment",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-31 11:58:53.592788",
+ "modified_by": "Administrator",
+ "module": "Gym Erp",
+ "name": "Gym Member Before Pictures",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

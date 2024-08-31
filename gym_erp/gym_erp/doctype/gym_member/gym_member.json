@@ -1,0 +1,223 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2024-08-31 11:16:52.522870",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_3fzf",
+  "amended_from",
+  "full_name",
+  "age",
+  "weight",
+  "height",
+  "whatsapp_number",
+  "place",
+  "branch",
+  "referral_information_section",
+  "who_referred_me",
+  "dietary_information_section",
+  "food_allergies_column",
+  "food_preferences",
+  "food_allergies",
+  "medical_information_section",
+  "medical_issues",
+  "physical_measurements_section",
+  "bust",
+  "upper_arm",
+  "chest",
+  "waist",
+  "column_break_vpkr",
+  "stomach",
+  "hips",
+  "calves",
+  "before_pictures_section",
+  "table_zrhm"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_3fzf",
+   "fieldtype": "Section Break",
+   "label": "Basic Information"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Gym Member",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Age",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Float",
+   "label": "Height",
+   "reqd": 1
+  },
+  {
+   "fieldname": "whatsapp_number",
+   "fieldtype": "Phone",
+   "label": "WhatsApp Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Link",
+   "label": "Place",
+   "options": "Territory",
+   "reqd": 1
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "referral_information_section",
+   "fieldtype": "Section Break",
+   "label": "Referral Information"
+  },
+  {
+   "fieldname": "who_referred_me",
+   "fieldtype": "Link",
+   "label": "Who Referred Me",
+   "options": "Gym Member"
+  },
+  {
+   "fieldname": "dietary_information_section",
+   "fieldtype": "Section Break",
+   "label": "Dietary Information"
+  },
+  {
+   "fieldname": "food_preferences",
+   "fieldtype": "Select",
+   "label": "Food Preferences",
+   "options": "Veg\nNon-Ve",
+   "reqd": 1
+  },
+  {
+   "fieldname": "food_allergies_column",
+   "fieldtype": "Column Break",
+   "label": "Food Allergies"
+  },
+  {
+   "fieldname": "food_allergies",
+   "fieldtype": "Text",
+   "label": "Food Allergies"
+  },
+  {
+   "fieldname": "medical_information_section",
+   "fieldtype": "Section Break",
+   "label": "Medical Information"
+  },
+  {
+   "fieldname": "medical_issues",
+   "fieldtype": "Text",
+   "label": "Medical Issues"
+  },
+  {
+   "fieldname": "physical_measurements_section",
+   "fieldtype": "Section Break",
+   "label": "Physical Measurements"
+  },
+  {
+   "fieldname": "bust",
+   "fieldtype": "Float",
+   "label": "Bust"
+  },
+  {
+   "fieldname": "upper_arm",
+   "fieldtype": "Float",
+   "label": "Upper Arm"
+  },
+  {
+   "fieldname": "chest",
+   "fieldtype": "Float",
+   "label": "Chest"
+  },
+  {
+   "fieldname": "column_break_vpkr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stomach",
+   "fieldtype": "Float",
+   "label": "Stomach"
+  },
+  {
+   "fieldname": "waist",
+   "fieldtype": "Float",
+   "label": "Waist"
+  },
+  {
+   "fieldname": "hips",
+   "fieldtype": "Float",
+   "label": "Hips"
+  },
+  {
+   "fieldname": "calves",
+   "fieldtype": "Float",
+   "label": "Calves"
+  },
+  {
+   "fieldname": "before_pictures_section",
+   "fieldtype": "Section Break",
+   "label": "Before Pictures"
+  },
+  {
+   "fieldname": "table_zrhm",
+   "fieldtype": "Table",
+   "options": "Gym Member Before Pictures"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-31 11:58:44.050518",
+ "modified_by": "Administrator",
+ "module": "Gym Erp",
+ "name": "Gym Member",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
